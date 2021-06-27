@@ -1,2 +1,2 @@
 # BayesianEstimation
-Bayesian Time-Series Estimation Package idea using R6
+Bayesian Time-Series Estimation Package idea using R6 Classes 
