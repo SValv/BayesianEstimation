@@ -1,0 +1,33 @@
+Package: BayesianEstimation
+Title: Bayesian Time-Series Estimation
+Version: 1.0
+Authors@R:c(
+    person(given = "Bernd",
+           family = "Prostmaier",
+           role = "aut",
+           email = "s.valverde146@gmail.com",
+           comment = c(GitHub = "SValv")),
+    person(given = "Jörg",
+           family = "Marsoner",
+           role = "aut",
+           email = "s.valverde146@gmail.com"),
+    person(given = "Jakob",
+           family = "Losert",
+           role = "aut",
+           email = "s.valverde146@gmail.com"),
+    person(given = "Simon",
+           family = "Valverde",
+           role = c("aut", "cre"),
+           email = "s.valverde146@gmail.com",
+           comment = c(GitHub = "SValv")))
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: false
+Imports:
+	tidyr,
+	dplyr,
+	ggplot2,
+	R6
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
