@@ -3,7 +3,7 @@ Bayesian Time-Series Estimation Package idea using R6 Classes
 
 ## Installation and Usage
 
-If you want to install displayR you have to make sure you have devtools and Rtools installed.
+If you want to install the package you have to make sure you have devtools and Rtools installed.
 You can get Rtools here https://cran.r-project.org/bin/windows/Rtools/ - I used Rtools 41 for the installation, but higher versions should work too.
 
 To get devtools you can just use the line of code below:
