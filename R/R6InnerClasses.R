@@ -1,6 +1,7 @@
 #' @import ggplot2
 #' @import dplyr
 #' @import tidyr
+#' @import R6
 #'
 svss_class = R6Class(
   "Ssvs",
