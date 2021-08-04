@@ -4,7 +4,17 @@
 \alias{SSVS}
 \title{Load a Matrix}
 \usage{
-SSVS(y, x, nsave, nburn, tau0, tau1, S0)
+SSVS(
+  y,
+  x,
+  nsave = 1000,
+  nburn = 1000,
+  tau0 = 0.01,
+  tau1 = 10,
+  S0 = 0.01,
+  PriorSemiScaling = F,
+  scaling = T
+)
 }
 \arguments{
 \item{y}{Path to the input file}
