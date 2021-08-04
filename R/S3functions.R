@@ -9,7 +9,8 @@ summary.Ssvs=function(obj, coefs=T){
   cat("N:", nrow(obj$.__enclos_env__$private$x)," ")
   cat(paste("Burins:", obj$.__enclos_env__$private$nburn," "))
   cat(paste("Draws:", obj$.__enclos_env__$private$nsave + obj$.__enclos_env__$private$nburn," \n"))
-  cat("Tau0: ",obj$.__enclos_env__$private$tau0 ," Tau1: ", obj$.__enclos_env__$private$tau1 , " S0: ", obj$.__enclos_env__$private$S0 )
+  cat("Tau0: ",obj$.__enclos_env__$private$tau0 ," Tau1: ", obj$.__enclos_env__$private$tau1 , " S0: ", obj$.__enclos_env__$private$S0,"\n")
+  cat("Sig.mean: ",obj$.__enclos_env__$private$SIG.mean)
 }
 
 #' @method plot Ssvs
